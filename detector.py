@@ -20,5 +20,6 @@ with open("relatorio.txt", "w") as relatorio:
     for ip, count in tentativas.items():
         if count >= LIMITE:
             linha = f"{ip} -> {count} tentativas\n"
+            print("=== IPs Suspeitos Detectados ===")
             print(linha.strip())
             relatorio.write(linha)
