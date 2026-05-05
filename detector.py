@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+print("=== DETECÇÃO DE BRUTE FORCE ===\n")
 
 tentativas = defaultdict(int)
 
